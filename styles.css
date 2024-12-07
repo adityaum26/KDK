@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ticket {
+    background: white;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Dashed Line Style (not individual dots) */
+.line-break {
+    border-top: 2px dashed #ccc; /* Dashed line with a light gray color */
+    margin: 20px 0; /* Space between the sections */
+}
+
+.ticket-header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 6px 6px 0 0;
+}
+
+.ticket-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.info-block {
+    text-align: center;
+}
+
+.info-title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.info-value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ticket-route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 5px 0; /* Reduce top and bottom margin */
+}
+
+.arrow {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.ticket-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: gray;
+    margin: 15px 0;
+}
+
+.time-block p {
+    margin: 0;
+}
+
+.ticket-id {
+    font-size: 14px;
+    color: gray;
+    margin: 15px 0;
+}
+
+.ticket-status {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.ticket-logo {
+    margin-top: 20px;
+}
+
+.circle {
+    border: 2px dashed gray;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+}
+
+.circle p:last-child {
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+}
